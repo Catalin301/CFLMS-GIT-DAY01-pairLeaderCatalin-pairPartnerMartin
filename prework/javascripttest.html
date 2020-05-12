@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascripttest</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<h1 id="top">Schüler: 0</h1>
+<button type="button" id="mybutton">Erhöhen</button>
+<button type="button" id="reset">Zurücksetzen</button>
+
+<script type="text/javascript">
+	var anzahl = 0;
+
+	document.getElementById('mybutton').onclick = function(){
+		anzahl += 1;
+		document.getElementById('top').innerhtml = "Schüler" + anzahl;
+		
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+p{
+	font-family: "Georgia"
+}
+
+h1{
+	font-family: "Philosopher"
+}
+
+a{
+	font-family: "Arial"
+}
+header{
+	background-color: #b30000;
+	height: 110px;
+
+}
+
+
+
+nav{
+	float: left;
+	margin-top: 30px
+}
+
+.navlinks{
+	text-decoration: none;
+	color: grey;
+	padding: 50px;
+	font-size: 200%;
+}
+
+
+#logo{
+	width: 300px;
+	float: left;
+	margin: 10px:;
+	margin-top: 20px
+	}
+.welcome{
+	color:  #b32d00;
+	font-size: 48px;
+	text-align: center;
+}
+
+.rathaus{
+	width: 50%;
+	float: left;
+	padding-right: 20px;
+}
+
+footer{
+	clear: both;
+	padding: 30px;
+	text-align: center;
+	background-color: #1a0000;
+	max-height: auto;
+	max-width: auto;
+}
+
+.footer{
+	padding: 10px;
+	text-decoration: none;
+	float: left;
+	color: white;
+
+}
